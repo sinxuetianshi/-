@@ -1,0 +1,86 @@
+div,
+body,
+ul form,
+input,
+textarea,
+select {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+body {
+    background: #dedede;
+}
+
+.top {
+    padding: 35px;
+    background: #333333 url(../images/baidu.jpg)no-repeat left 15px;
+    border: 0px;
+    color: #fff;
+    margin: 0px;
+}
+
+.top li {
+    float: right;
+    margin: 0px;
+    padding-right: 30px;
+    font-size: 10px;
+    padding-bottom: 10 px;
+}
+
+.top a {
+    color: white;
+    text-decoration: none;
+}
+
+.body1 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+.body2 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+.body2 ul {
+    list-style: none;
+}
+
+.body3 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+.body4 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+.body5 {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+#t {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 1400px;
+}
+
+label {
+    float: left;
+    width: 10em;
+    margin-right: 4em;
+    text-align: right;
+}
