@@ -1,0 +1,116 @@
+#container {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+#head {
+    background: black;
+    color: white;
+}
+
+.tab table {
+    margin: 0 auto;
+}
+
+.tabp table th {
+    background-color: #000;
+    color: #fff;
+}
+
+.tab tbody tr:nth-child(even) {
+    background-color: #9d9d9d;
+}
+
+.tab tbody tr:nth-child(-n+3) {
+    color: red;
+}
+
+.tab tbody tr:nth-child(5) {
+    color: red;
+}
+
+.tab tbody tr:nth-child(7) {
+    color: red;
+}
+
+.tab tbody tr:nth-child(9) {
+    color: red;
+}
+
+.incon {
+    margin: 100px auto;
+}
+
+.inp {
+    width: 100px;
+    height: 10px;
+    margin-left: 42%;
+    border: 1px solid;
+}
+
+.inp:hover {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 3px blue;
+}
+
+.little_container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.images {
+    width: 300px;
+    height: 200px;
+}
+
+.big_container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000px;
+    height: 200px;
+    animation: task12 10S linear infinite;
+}
+
+@keyframes task12 {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: -50px;
+    }
+    20% {
+        left: -300px;
+    }
+    30% {
+        left: -300px;
+    }
+    40% {
+        left: -350px;
+    }
+    50% {
+        left: -600px;
+    }
+    60% {
+        left: -600px;
+    }
+    70% {
+        left: -650px;
+    }
+    80% {
+        left: -900px;
+    }
+    90% {
+        left: -900px;
+    }
+    100% {
+        left: -900px;
+    }
+}
+
+z`
